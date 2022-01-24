@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: rgb(0, 156, 0);
+    font-family: 'Consolas', monospace;
+  }
+  header {
+    text-align: center;
+  }
+  #messages {
+    margin-left: 1em;
+    list-style: none;
+  }
+  #form {
+    display: flex;
+  }
+  input,
+  label {
+    display: block;
+  }
+  input {
+    outline: none;
+    border: none;
+    background-color: rgb(75, 0, 145);
+    color: rgb(0, 156, 0);
+    padding: 1em 0.5em;
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Consolas', monospace;
+    flex: 1;
+  }
+  label {
+    display: block;
+    padding: 1em 0.5em;
+    font-size: 1.5em;
+  }
+  
